@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  background-image: url("img/animacja.gif");
+}
+
+#title {
+  padding: 10px;
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#mainTitle {
+  font-size: 64px;
+  color: #ffffff;
+  text-shadow: -5px 5px 0px#156665, -10px 10px 0px #23a6a4,
+    -15px 15px 0px #2bccc9;
+  animation-name: titleAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/*animacja tytułu*/
+
+@keyframes titleAnimation {
+  0% {
+    color: #ffffff;
+    text-shadow: -5px 5px 0px #185666, -10px 10px 0px #288da6,
+      -15px 15px 0px #30aecc;
+  }
+  25% {
+    color: #ffffff;
+    text-shadow: -5px 5px 0px #1b4366, -10px 10px 0px #2b6da6,
+      -15px 15px 0px #3586cc;
+  }
+  50% {
+    color: #ffffff;
+    text-shadow: -5px 5px 0px #283866, -10px 10px 0px #415ca6,
+      -15px 15px 0px #4f70cc;
+  }
+  100% {
+    color: #ffffff;
+    text-shadow: -5px 5px 0px #265066, -10px 10px 0px #3d81a6,
+      -15px 15px 0px #4b9fcc;
+  }
+}
+
+@keyframes reverseTitleAnimation {
+  0% {
+    color: #ffffff;
+    text-shadow: -5px 5px 0px #4e47fd, -10px 10px 0px #824ff7,
+      -15px 15px 0px #b949fd;
+  }
+  25% {
+    color: #ffffff;
+    text-shadow: -5px 5px 0px #5147eb, -10px 10px 0px #784bd5,
+      -15px 15px 0px #ab47eb;
+  }
+  50% {
+    color: #ffffff;
+    text-shadow: -5px 5px 0px #7372fc, -10px 10px 0px #9574e6,
+      -15px 15px 0px #bf72fc;
+  }
+  100% {
+    color: #ffffff;
+    text-shadow: -5px 5px 0px #3d38fc, -10px 10px 0px #713ee6,
+      -15px 15px 0px #a838fc;
+  }
+}
+
+#menu {
+  border: double 16px #2d73b1;
+  border-radius: 16px;
+  margin: auto;
+  width: 1024px;
+  height: 576px;
+  text-align: center;
+  background-image: url("img/backg_menu.png");
+  background-size: 1024px 576px;
+  padding-top: 50px;
+}
+
+.menuButton {
+  width: 400px;
+  height: 120px;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 10px #47fffe solid;
+  background-color: #25dfdc5d;
+}
+
+.menuButton:hover {
+  background-color: #25dfdc;
+}
+.buttonText {
+  text-shadow: 2px 2px 1px #ffffff;
+}
+
+/*Stylowanie linków*/
+
+a:link {
+  text-decoration: none;
+  color: #1b4366;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #1b4366;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+  color: #1b4366;
+}
+
+.avoidClick {
+  pointer-events: none;
+  user-select: none;
+}
+
+/*stylowanie creditsów*/
+
+#creditsMain {
+  margin: auto;
+  margin-top: 150px;
+  width: 1000px;
+  height: 600px;
+}
+
+#creators {
+  padding: 80px;
+  font-size: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 20px;
+}
+
+#tworcy {
+  color: #ffffff;
+  animation-name: reverseTitleAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.creator {
+  color: #ffffff;
+  text-shadow: -5px 5px 0px#156665, -10px 10px 0px #23a6a4,
+    -15px 15px 0px #2bccc9;
+  animation-name: titleAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#backButton {
+  width: 400px;
+  height: 120px;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 10px #47fffe solid;
+  background-color: #25dfdc5d;
+  margin-left: 600px;
+}
+
+#back {
+  font-size: 44px;
+}
+
+#backButton:hover {
+  background-color: #25dfdc;
+}
