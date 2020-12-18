@@ -41,15 +41,15 @@ var rock={
 };
 //Dodawanie obrazków//
 var playerSprite = new Image();
-playerSprite.src = "img/astronautasheet.png";
+playerSprite.src = "astronautasheet.png";
 var background= new Image();
-background.src = "img/bgfull.png";
+background.src = "bgfull.png";
 var kosmitaSprite = new Image();
-kosmitaSprite.src = "img/kosmitasheet.png";
+kosmitaSprite.src = "kosmitasheet.png";
 var rockSprite = new Image();
-rockSprite.src = "img/uf.png"
+rockSprite.src = "uf.png"
 var lose = new Image();
-lose.src = "img/lose.png";
+lose.src = "lose.png";
 //Rysiwanie tła i postaci//
 function drawSprite(img, sX, sY, sW, sH, dX, dY, dW, dH){
     ctx.drawImage(img, sX, sY, sW, sH, dX, dY, dW, dH)
