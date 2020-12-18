@@ -6,7 +6,7 @@
 
 body {
   font-family: "Press Start 2P", cursive;
-  background-image: url("img/animacja.gif");
+  background-image: url("animacja.gif");
 }
 
 #title {
@@ -84,7 +84,7 @@ body {
   width: 1024px;
   height: 576px;
   text-align: center;
-  background-image: url("img/backg_menu.png");
+  background-image: url("backg_menu.png");
   background-size: 1024px 576px;
   padding-top: 50px;
 }
